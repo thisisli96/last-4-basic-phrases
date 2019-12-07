@@ -21,13 +21,87 @@
 		app:layout_constraintTop_toTopOf="parent">
 
 
+<!--		<Button-->
+<!--			android:id="@+id/btnsatu"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:onClick="play"-->
+<!--			android:text="adakah"-->
+<!--			android:tag="doyouspeakenglish"/>-->
+<!--		<Button-->
+<!--			android:id="@+id/btndua"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:text="adami"-->
+<!--			android:onClick="playdua"-->
+<!--			android:tag="goodevening"/>-->
+<!--		<Button-->
+<!--			android:id="@+id/btntiga"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:text="adatoh"-->
+<!--			android:onClick="playtiga"-->
+<!--			android:tag="hello"/>-->
+<!--		<Button-->
+<!--			android:id="@+id/btnempat"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:text="adapi"-->
+<!--			android:onClick="playempat"-->
+<!--			android:tag="howareyou"/>-->
+<!--		<Button-->
+<!--			android:id="@+id/btnlima"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:text="adaga"-->
+<!--			android:onClick="playlima"-->
+<!--			android:tag="ilivein"/>-->
+<!--		<Button-->
+<!--			android:id="@+id/btnenam"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:text="adaki"-->
+<!--			android:onClick="playenam"-->
+<!--			android:tag="mynameis"/>-->
+<!--		<Button-->
+<!--			android:id="@+id/btntujuh"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:text="adadik"-->
+<!--			android:onClick="playtujuh"-->
+<!--			android:tag="please"/>-->
+<!--		<Button-->
+<!--			android:id="@+id/btndelapan"-->
+<!--			android:layout_gravity="fill"-->
+<!--			android:layout_columnWeight="1"-->
+<!--			android:layout_rowWeight="1"-->
+<!--			android:textSize="30dp"-->
+<!--			android:text="adaca'"-->
+<!--			android:onClick="playdelapan"-->
+<!--			android:tag="welcome"/>-->
+<!--	</GridLayout>-->
+
 		<Button
 			android:id="@+id/btnsatu"
 			android:layout_gravity="fill"
 			android:layout_columnWeight="1"
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
-			android:onClick="play"
+			android:onClick="playphrases"
 			android:text="adakah"
 			android:tag="doyouspeakenglish"/>
 		<Button
@@ -37,7 +111,7 @@
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
 			android:text="adami"
-			android:onClick="playdua"
+			android:onClick="playphrases"
 			android:tag="goodevening"/>
 		<Button
 			android:id="@+id/btntiga"
@@ -46,7 +120,7 @@
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
 			android:text="adatoh"
-			android:onClick="playtiga"
+			android:onClick="playphrases"
 			android:tag="hello"/>
 		<Button
 			android:id="@+id/btnempat"
@@ -55,7 +129,7 @@
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
 			android:text="adapi"
-			android:onClick="playempat"
+			android:onClick="playphrases"
 			android:tag="howareyou"/>
 		<Button
 			android:id="@+id/btnlima"
@@ -64,7 +138,7 @@
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
 			android:text="adaga"
-			android:onClick="playlima"
+			android:onClick="playphrases"
 			android:tag="ilivein"/>
 		<Button
 			android:id="@+id/btnenam"
@@ -73,7 +147,7 @@
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
 			android:text="adaki"
-			android:onClick="playenam"
+			android:onClick="playphrases"
 			android:tag="mynameis"/>
 		<Button
 			android:id="@+id/btntujuh"
@@ -82,7 +156,7 @@
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
 			android:text="adadik"
-			android:onClick="playtujuh"
+			android:onClick="playphrases"
 			android:tag="please"/>
 		<Button
 			android:id="@+id/btndelapan"
@@ -91,8 +165,7 @@
 			android:layout_rowWeight="1"
 			android:textSize="30dp"
 			android:text="adaca'"
-			android:onClick="playdelapan"
+			android:onClick="playphrases"
 			android:tag="welcome"/>
 	</GridLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
